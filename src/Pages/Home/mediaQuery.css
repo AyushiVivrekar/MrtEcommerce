@@ -1,0 +1,215 @@
+
+/* -----------------------------main Page------------------------- */
+@media only screen and (max-width: 600px) {
+    .mainPageCard {
+        height: auto; 
+        margin-top: 10px; 
+    }
+    .carouselImg {
+        margin-left: 0; 
+    }
+    .visitBtn {
+        padding: 5px 10px; 
+    }
+}
+@media (max-width: 768px) {
+    .mainPageCard {
+        padding: 30px 5px;
+    }
+
+    .carouselImg {
+        max-width: 80%; 
+        max-height: 40vh; 
+    }
+
+    .visitBtn {
+        padding: 5px 10px; 
+    }
+}
+
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .mainPageCard {
+        height: auto; 
+        margin-top: 10px; 
+    }
+    .carouselImg {
+        margin-left: 0; 
+    }
+    .visitBtn {
+        padding: 5px 10px;
+    }
+}
+/* ----------------------------------bigDiscount-------------------- */
+@media only screen and (min-width: 200px) {
+    .bigDicBackground {
+        padding: 0px 10px;
+    }
+    .bigDisImg {
+        width: 100%;
+        height: auto;
+    }
+   
+    .bigDicCard {
+        width: 100%;
+    }
+    
+}
+
+@media only screen and (min-width: 360px) {
+    .bigDicBackground{
+        padding: 0px 10px;
+    }
+    .bigDisImg {
+        width: 100%;
+        height: auto;
+    }
+    .bigDicCard{
+        width: 100%;
+    }
+    .bigDisAddBtn {
+        font-size: 14px;
+    }
+
+}
+@media (min-width: 768px) {
+    .bigDicBackground {
+        padding: 0px 100px; 
+    }
+
+    .bigDisImg {
+        width: 75%; 
+        height: 60%; 
+    }
+
+    .bigDicCard {
+        /* width: 85%; */
+        height: 100%; 
+    }
+
+    .bigDisAddBtn {
+        font-size: 18px; 
+    }
+}
+/* -----------------------newArrival ----------------------- */
+
+@media only screen and (min-width: 200px) {
+    .newArrivalBackground {
+        padding: 0px 10px;
+    }
+    .newArrivalImg {
+        width: 100%;
+        height: auto;
+    }
+    .newArrivalDiscountBtn {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .newArrivalCard {
+        width: 100%;
+    }
+    .newArrivalAddBtn {
+        font-size: 14px;
+    }
+}
+
+
+@media only screen and (min-width: 360px) {
+    .newArrivalBackground {
+        padding: 0px 10px;
+    }
+    .newArrivalImg {
+        width: 100%;
+        height: auto;
+    }
+    .newArrivalDiscountBtn {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .newArrivalCard {
+        width: 100%;
+    }
+    .newArrivalAddBtn {
+        font-size: 14px;
+    }
+
+}
+@media (min-width: 768px) {
+    .newArrivalBackground {
+        padding: 0px 100px;
+    }
+
+    .newArrivalImg {
+        width: 75%; 
+        height: 85%; 
+    }
+
+    .newArrivalAddBtn {
+        font-size: 18px; 
+    }
+}
+
+/* -------------------------Best Sales -------------------- */
+/* For resolution 200px and above */
+@media only screen and (min-width: 200px) {
+    .bestSalesBackground {
+        padding: 0px 10px;
+    }
+    .bestSalesImg {
+        height: auto;
+    }
+    .bestSalesBtn {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .bestSalesCard {
+        width: 100%;
+        padding: 2px 20px 10px 20px;
+    }
+    .bestSalesAddBtn {
+        font-size: 14px;
+    }
+}
+@media (min-width: 768px) {
+   
+    .bestSalesBackground {
+        padding: 0px 100px; 
+    }
+
+    .bestSalesImg {
+        width: 75%; 
+        height: 80%; 
+    }
+
+    .bestSalesAddBtn {
+        font-size: 18px; 
+    }
+}
+/* ----------------------Shop Page ------------------------ */
+@media (max-width: 768px) {
+    .image-container {
+        height: 30vh; 
+    }
+
+    .overlay-text {
+        font-size: 18px; 
+    }
+
+    .search-icon {
+        right: 10px; 
+    }
+}
+
+@media (min-width: 768px) {
+    /* Media query for tablets and larger devices */
+    .shopPageBackground {
+        padding: 0px 100px; /* Original padding for larger screens */
+    }
+
+  
+
+    .shopPageAddBtn {
+        font-size: 18px; /* Original font size for larger screens */
+    }
+}
+

@@ -1,0 +1,375 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navBar{
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   
+}
+.navHeading h5{
+    color: black;
+    font-weight: 600;
+}
+.navItem a{  
+    color: black !important;
+    font-weight: 600;
+    margin-right: 6px;
+    font-size: 16px; 
+}
+.badgeIcon{
+    background-color: rgb(17, 32, 80) !important;
+    border-radius: 20px;
+    position: absolute;
+    top: 5px;
+
+  
+}
+
+/* ------------------------MainPage Css---------------------- */
+
+.mainPageCard{
+    background-color: rgba(242, 247, 252, 0.842);
+    border: none;
+    margin-top: 5px;
+    height: 65vh;
+    padding: 50px 10px 30px 10px;
+}
+.carouselImg{
+    margin-left: 40%;
+    max-width: 40vw;
+    max-height: 50vh;
+    object-fit: cover;
+}
+
+.visitBtn{
+    border: none;
+    background-color: rgba(247, 245, 245, 0.911);
+    border-radius: 8px;
+    padding: 2px 1px 2px 1px;
+}
+
+
+
+/* ------------------Service Data Cards Css -------------------- */
+.cardService{
+    border: none;
+    border-radius: 2px;
+}
+.serviceIcons{
+    background-color: #fff;
+    padding: 8px;
+    border-radius: 15px;
+
+}
+.line-spacing{
+    line-height: 2.9;
+    font-size: 18px;
+}
+
+/* ------------------------ Big Discount Css ------------------ */
+.bigDicBackground {
+    background-color: rgba(242, 247, 252, 0.842);
+    border: none;
+    padding: 0px 100px; /* Adjusted padding for smaller screens */
+}
+
+.big-discount-img{
+    width: 100%; 
+    height: 50%; 
+
+}
+
+.bigDisDiscountBtn {
+    background-color: rgb(25, 64, 112);
+    width: 25%;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    padding: 3px 3px 3px 3px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.big-discount-card{
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    padding: 5% 2% 5% 2%;
+    height: 100%;
+    margin-bottom: 0px !important;
+}
+.price-btn-container{
+    display: flex;
+}
+.price-bigDis{
+    display: flex;
+    line-height: 10px;
+}
+.add-to-cart-btn{
+    border-radius: 20px;
+    color: rgb(25, 64, 112);
+    font-size: 16px; 
+    
+}
+
+.add-to-cart-btn:hover {
+    background-color: rgb(25, 64, 112);
+    color: #fff;
+}
+/* ----------------------------New Arrival css------------------------ */
+.newArrivalBackground {
+    border: none;
+    padding: 0px 100px;
+}
+
+.newArrivalImg {
+    width: 100%;
+    height: auto; 
+}
+
+.newArrivalDiscountBtn {
+    background-color: rgb(25, 64, 112);
+    border-radius: 20px;
+    border: none;
+    margin-top: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.newArrivalDiscountBtn:hover {
+    background-color: rgb(245, 245, 245);
+    color: black;
+}
+
+.newArrivalCard {
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    padding: 10px;
+    height:  100%;
+}
+
+.newArrivalAddBtn {
+    border-radius: 20px;
+    color: rgb(25, 64, 112);
+    font-size: 16px; 
+}
+
+.newArrivalAddBtn:hover {
+    background-color: rgb(25, 64, 112);
+    color: #fff;
+}
+/* -----------------------------Best Sales Css --------------------- */
+.bestSalesBackground {
+    background-color: rgba(242, 247, 252, 0.842);
+    border: none;
+    padding: 0px 20px; 
+}
+
+.bestSalesImg {
+    width: 100%; 
+    height: auto; 
+}
+
+.bestSalesBtn {
+    background-color: rgb(25, 64, 112);
+    border-radius: 20px;
+    border: none;
+    margin-top: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.bestSalesBtn:hover {
+    background-color: rgb(245, 245, 245);
+    color: black;
+}
+
+.bestSalesCard {
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    padding: 10px; 
+    height: 100%;
+}
+
+.bestSalesAddBtn {
+    border-radius: 20px;
+    color: rgb(25, 64, 112);
+    font-size: 16px; /* Adjusted font size for smaller screens */
+}
+
+.bestSalesAddBtn:hover {
+    background-color: rgb(10, 38, 128);
+    color: #fff;
+}
+/* ----------------------Footer ---------------------------- */
+.blockcode{
+    background-color: #0f2360db;
+    color: #fff;
+  
+}
+.footerList a{
+    text-decoration: none;
+    color: #dfdbdb;
+}
+
+/* ----------------------------------------------------------------------------------- */
+
+
+/* Sopping Page CSS ==================== */
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    background-color: rgba(0, 0, 0, 0.989);
+    z-index: 0.5;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+}
+
+.dropdownBackground {
+    background-color: rgb(17, 71, 128);
+    color: #fff;
+    width: 60%;
+}
+
+.dropdownBackground:hover {
+    background-color: rgb(42, 94, 149) !important;
+    color: #fff;
+}
+
+.shoopingPageSearch {
+    background-color: #f4f2f2;
+    border: none;
+    border-radius: 20px;
+    /* position: relative; */
+    /* padding-right: 40px; */
+    width: 100%;
+}
+
+.search-icon {
+    /* position: absolute; */
+    /* top: 2%; */
+    /* transform: translateY(-50%); */
+    color: #aaa;
+    cursor: pointer;
+}
+
+/* ------------shopCard css(Shopping page)---------- */
+.shopPageBackground {
+    background-color: rgba(242, 247, 252, 0.842);
+    border: none;
+    padding: 0px 20px; 
+}
+
+.shopPageImg {
+    height: auto; 
+    max-width: 100%; 
+}
+
+.shopPageBtn {
+    background-color: rgb(25, 64, 112);
+    border-radius: 20px;
+    border: none;
+    margin-top: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.shopPageBtn:hover {
+    background-color: rgb(245, 245, 245);
+    color: black;
+}
+
+.shopPageCard {
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    padding: 10px; 
+    height: 100%;
+}
+
+.shopPageAddBtn {
+    border-radius: 20px;
+    color: rgb(25, 64, 112);
+    font-size: 16px; 
+}
+
+.shopPageAddBtn:hover {
+    background-color: rgb(10, 38, 128);
+    color: #fff;
+}
+/* -----------------DetailPage CSS -------------------- */
+.detailpageInput{
+    width: 15%;
+}
+.btnAddTocart{
+    background-color: rgb(25, 64, 112);
+    color: #f4f2f2;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+}
+.detaiPageContainer{
+    margin: 0px 30px 0px 30px;
+}
+.detailPageImg{
+    width: 75%;
+    height: 85%;
+}
+.detailPageAddBtn:hover{
+    background-color:rgb(25, 64, 112);
+    border-radius: 20px;
+     color: #dfdbdb;
+}
+.detailPageAddBtn{
+    background-color:rgb(245, 245, 245);
+    color: black;
+    border-radius: 20px;
+    border: none;
+    margin-top: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.detailPageCard{
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    /* width: 95%; */
+    height:  100%;
+    padding: 2px 10px 10px 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
